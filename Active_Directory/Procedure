@@ -1,0 +1,9 @@
+1. Download Windows 10
+2. Create Server 2019 and in this case it is named DC
+3. NIC dedicated to internet and one that is internal. Setup internal NIC manually as external NIC will be setup automatically from the home router.
+4. Install Active Directory Domain Services and create a Domain
+5. Create our own Domain account instead of using the built in domain account
+6. Install RAS/NAT Remote Access Server/Network Address Translation which enables the Windows 10 client be in the private virtual network and also access the internet through the domain controller
+7. DHCP scope to automatically allocate IP address to components of the network
+8. Create the user accounts using Windows powershell
+9. Set up the Client to be used by various user accounts   
